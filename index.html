@@ -12,12 +12,13 @@
 
 <body></body>
   <section class="top-nav">
-    <div>
-      Logo Here
+    <div class="logo">
+      <img src="/images/icons8-cloud-64.png" alt="cloud logo">
     </div>
-    <input id="menu-toggle" type="checkbox" />
-    <label class='menu-button-container' for="menu-toggle">
-    <div class='menu-button'></div>
+    <!--After a lot of researching I found the only way to do this with CSS seemed to be with a checkbox?!-->
+    <input class="menu-toggle" id="menu-toggle" type="checkbox" />
+    <label class='menu__button--container' for="menu-toggle">
+    <div class='menu__button'></div>
   </label>
     <ul class="menu">
       <li>Submit dream</li>
@@ -28,7 +29,6 @@
     </ul>
   </section>
 
-<h2>Resize window to see burger menu :)</h2>
-
+<h2 class="main__text main__text--style">You can shrink the window to see burger menu appear :)</h2>
 
 </body>
